@@ -1,14 +1,18 @@
 # Task: Xây Dựng Ứng Dụng Quản Lý Thư Viện
 
 ## Giai đoạn 1: Thiết lập cấu trúc dự án
-- [/] Tạo cấu trúc thư mục
-  - [ ] Tạo thư mục gốc `library_management`
-  - [ ] Tạo thư mục `src/`
-  - [ ] Tạo thư mục `include/`
-  - [ ] Tạo thư mục `data/`
-- [ ] Tạo file `common.h` với constants và error codes
-- [ ] Tạo `Makefile`
-- [ ] Tạo `README.md`
+- [x] Tạo cấu trúc thư mục
+  - [x] Tạo thư mục gốc `library_management`
+  - [x] Tạo thư mục `src/`
+  - [x] Tạo thư mục `include/`
+  - [x] Tạo thư mục `data/`
+- [x] Tạo file `common.h` với constants và error codes
+  - [x] Header guards và includes
+  - [x] Constants (MAX_BOOKS, MAX_USERS, etc.)
+  - [x] Error codes enum
+  - [x] Data structures (Book, User, Library)
+- [x] Tạo `Makefile`
+- [x] Tạo `README.md`
 
 ## Giai đoạn 2: Module Utils
 - [ ] Tạo `utils.h` và `utils.c`

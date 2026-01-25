@@ -14,17 +14,25 @@
 - [x] Tạo `Makefile`
 - [x] Tạo `README.md`
 
-## Giai đoạn 2: Module Utils
-- [ ] Tạo `utils.h` và `utils.c`
-- [ ] Implement validation functions
-- [ ] Implement input functions
-- [ ] Implement error handling
+## Giai đoạn 2: Module Utils (Tiện ích) ✅
+- [x] Tạo file `include/utils.h`
+- [x] Tạo file `src/utils.c`
+- [x] Implement validation functions (validate_id, validate_string, validate_string_length)
+- [x] Implement input functions (clear_input_buffer, get_integer_input, get_string_input)
+- [x] Implement string utilities (trim_string, safe_string_copy)
+- [x] Implement error handling (get_error_message, print_error)
+- [x] Test và compile thành công
+- [x] Commit và push lên GitHub
 
-## Giai đoạn 3: Module Book
-- [ ] Tạo `book.h` và `book.c`
-- [ ] Implement CRUD operations
-- [ ] Implement search functions
-- [ ] Implement display functions
+## Giai đoạn 3: Module Book ✅
+- [x] Tạo `book.h` và `book.c`
+- [x] Implement CRUD operations (add, find, update, delete)
+- [x] Implement search functions (by title, by author)
+- [x] Implement display functions (single book, all books)
+- [x] Implement helper functions (get_book_count, find_book_index_by_id)
+- [x] Fix error handling consistency
+- [x] Fix compilation errors (delete_book, search functions)
+- [x] Test và compile thành công (298 dòng, 10 hàm)
 
 ## Giai đoạn 4: Module User
 - [ ] Tạo `user.h` và `user.c`
